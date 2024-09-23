@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: black;
+}
+
+.flexcontainer{
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.f1{
+background-color: rgb(216, 38, 7);
+width: 200px;
+height: 200px;
+border-radius: 15px;
+}
+
+.f2{
+    background-color: rgb(7, 104, 3);
+width: 200px;
+height: 200px;
+border-radius: 15px;
+}
+
+.f3{
+    background-color: rgb(17, 99, 192);
+width: 200px;
+height: 200px;
+border-radius: 15px;
+}
